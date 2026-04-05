@@ -423,7 +423,7 @@ MIT License - See LICENSE file for details
 **Built for Cloud Computing & AI Service course**
 
 Made with 🧠 for intelligent education
-
+````
 ├── 📊 Monitoring (NEW ⭐)
 │ ├── monitoring/
 │ │ ├── prometheus.yaml ← Metrics config
