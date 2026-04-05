@@ -9,6 +9,60 @@
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 ---
+## ⚙️ Technology Stack
+
+### NLP & Analytics (Core)
+
+| Technology | Version | Purpose |
+| :--- | :--- | :--- |
+| <img src="https://raw.githubusercontent.com/UKPLab/sentence-transformers/master/docs/img/logo.png" width="25"/> **Sentence Transformers** | 2.2+ | BERT embeddings (all-MiniLM-L6-v2) |
+| <img src="https://cdn.simpleicons.org/spacy/09A3D5" width="25"/> **spaCy** | 3.7+ | NLP tokenization & entity extraction |
+| <img src="https://numpy.org/doc/stable/_static/numpylogo.svg" width="25"/> **NumPy/SciPy** | 1.24+ | Statistical analysis |
+| <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="25"/> **scikit-learn** | 1.3+ | Anomaly detection, ML pipeline |
+
+### Backend & APIs
+
+| Technology | Version | Purpose |
+| :--- | :--- | :--- |
+| <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="25"/> **FastAPI** | 0.104+ | Async REST API with auto-docs |
+| <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="25"/> **Python** | 3.11+ | Core backend logic |
+| <img src="https://nodejs.org/static/images/logo.svg" width="25"/> **Node.js** | 18+ | Frontend runtime |
+
+### Data Storage
+
+| Technology | Version | Purpose |
+| :--- | :--- | :--- |
+| <img src="https://www.postgresql.org/media/img/about/press/elephant.png" width="25"/> **PostgreSQL** | 15+ | Relational database (ACID) |
+| <img src="https://cdn.simpleicons.org/redis/DC382D" width="25"/> **Redis** | 7+ | Caching layer (100x faster) |
+| <img src="https://www.mongodb.com/assets/images/global/favicon.ico" width="25"/> **MongoDB** | 6+ | Document storage |
+| <img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt18698188cf8622f4/5f1f0a0718698188cf8622f4/logo-elastic-search-32-color.png" width="25"/> **Elasticsearch** | 8.9+ | Full-text search |
+
+### Real-Time & Batch Processing
+
+| Technology | Version | Throughput |
+| :--- | :--- | :--- |
+| <img src="https://cdn.simpleicons.org/apachekafka/231F20" width="25"/> **Apache Kafka** | 3.5+ | 1000+ messages/sec |
+| <img src="https://spark.apache.org/images/spark-logo-trademark.png" width="25"/> **Apache Spark** | 3.4+ | 1M submissions/min |
+| <img src="https://spark.apache.org/images/spark-logo-trademark.png" width="25"/> **Spark Streaming** | 3.4+ | Real-time aggregations |
+
+### Container & Cloud
+
+| Technology | Version | Purpose |
+| :--- | :--- | :--- |
+| <img src="https://cdn.simpleicons.org/docker/2496ED" width="25"/> **Docker** | 24+ | Containerization |
+| <img src="https://cdn.simpleicons.org/docker/2496ED" width="25"/> **Docker Compose** | 2.20+ | Local multi-container stack |
+| <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" width="25"/> **Kubernetes** | 1.27+ | Production orchestration |
+| <img src="https://helm.sh/img/helm.svg" width="25"/> **Helm** | 3.12+ | K8s package management |
+
+
+### Monitoring
+
+| Technology | Version | Purpose |
+| :--- | :--- | :--- |
+| <img src="https://cdn.simpleicons.org/prometheus/E6522C" width="25"/> **Prometheus** | 2.47+ | Metrics collection |
+| <img src="https://cdn.simpleicons.org/grafana/F46800" width="25"/> **Grafana** | 10+ | Dashboards & alerts |
+| <img src="https://cdn.simpleicons.org/elasticstack/005571" width="25"/> **ELK Stack** | 8.9+ | Centralized logging |
+---
 
 ## ✨ What Is ExplainGrade?
 
@@ -95,60 +149,6 @@ python -m src.spark_batch
 
 ---
 
-## ⚙️ Technology Stack
-
-### NLP & Analytics (Core)
-
-| Technology                | Version | Purpose                              |
-| ------------------------- | ------- | ------------------------------------ |
-| **Sentence Transformers** | 2.2+    | BERT embeddings (all-MiniLM-L6-v2)   |
-| **spaCy**                 | 3.7+    | NLP tokenization & entity extraction |
-| **NumPy/SciPy**           | 1.24+   | Statistical analysis                 |
-| **scikit-learn**          | 1.3+    | Anomaly detection, ML pipeline       |
-
-### Backend & APIs
-
-| Technology  | Version | Purpose                       |
-| ----------- | ------- | ----------------------------- |
-| **FastAPI** | 0.104+  | Async REST API with auto-docs |
-| **Python**  | 3.11+   | Core backend logic            |
-| **Node.js** | 18+     | Frontend runtime              |
-
-### Data Storage
-
-| Technology        | Version | Purpose                     |
-| ----------------- | ------- | --------------------------- |
-| **PostgreSQL**    | 15+     | Relational database (ACID)  |
-| **Redis**         | 7+      | Caching layer (100x faster) |
-| **MongoDB**       | 6+      | Document storage            |
-| **Elasticsearch** | 8.9+    | Full-text search            |
-
-### Real-Time & Batch Processing
-
-| Technology          | Version | Throughput             |
-| ------------------- | ------- | ---------------------- |
-| **Apache Kafka**    | 3.5+    | 1000+ messages/sec     |
-| **Apache Spark**    | 3.4+    | 1M submissions/min     |
-| **Spark Streaming** | 3.4+    | Real-time aggregations |
-
-### Container & Cloud
-
-| Technology         | Version | Purpose                     |
-| ------------------ | ------- | --------------------------- |
-| **Docker**         | 24+     | Containerization            |
-| **Docker Compose** | 2.20+   | Local multi-container stack |
-| **Kubernetes**     | 1.27+   | Production orchestration    |
-| **Helm**           | 3.12+   | K8s package management      |
-
-### Monitoring
-
-| Technology     | Version | Purpose             |
-| -------------- | ------- | ------------------- |
-| **Prometheus** | 2.47+   | Metrics collection  |
-| **Grafana**    | 10+     | Dashboards & alerts |
-| **ELK Stack**  | 8.9+    | Centralized logging |
-
----
 
 ## 📊 6-Dimensional Analytics
 
