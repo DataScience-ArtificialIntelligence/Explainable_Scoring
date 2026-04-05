@@ -95,7 +95,7 @@ python -m src.spark_batch
 
 ---
 
-## �️ Technology Stack
+## ⚙️ Technology Stack
 
 ### NLP & Analytics (Core)
 
@@ -150,7 +150,7 @@ python -m src.spark_batch
 
 ---
 
-## � 6-Dimensional Analytics
+## 📊 6-Dimensional Analytics
 
 ExplainGrade measures learning across **six independent dimensions**:
 
@@ -422,7 +422,7 @@ MIT License - See LICENSE file for details
 
 **Built for Cloud Computing & AI Service course**
 
-Made with ❤️ for intelligent education
+Made with 🧠 for intelligent education
 
 ├── 📊 Monitoring (NEW ⭐)
 │ ├── monitoring/
@@ -448,7 +448,6 @@ Made with ❤️ for intelligent education
 ├── .gitignore
 └── vercel.json
 
-````
 
 ---
 
@@ -458,7 +457,7 @@ Made with ❤️ for intelligent education
 
 ```bash
 python local_grader.py --docx Transcript.docx --xlsx Summary.xlsx --max-score 10
-````
+```
 
 ### Case 2: Want Analytics Dashboard (10 minutes)
 
@@ -554,8 +553,9 @@ Course: Cloud Computing & AI Service
 
 ---
 
-**Built with ❤️ for learners and educators**
+**Built with 🧠 for learners and educators**
 
 🚀 Start with the Quick Start above, then explore `START_HERE.md` for more detailed guidance.
-#   E x p l a i n a b l e _ S c o r i n g  
+#   E x p l a i n a b l e _ S c o r i n g 
+ 
  
