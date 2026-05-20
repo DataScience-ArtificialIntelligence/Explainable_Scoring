@@ -1,3 +1,7 @@
+![Repo visits](https://hits.sh/github.com/DataScience-ArtificialIntelligence/Explainable_Scoring.svg?label=repo%20visits)
+![GitHub stars](https://img.shields.io/github/stars/DataScience-ArtificialIntelligence/Explainable_Scoring?style=logo&logo=github&label=⭐%20Stars) 
+![GitHub forks](https://img.shields.io/github/forks/DataScience-ArtificialIntelligence/Explainable_Scoring?style=social)
+
 # 🎓 ExplainGrade AI
 
 > **Intelligent Automated Short Answer Grading System**
